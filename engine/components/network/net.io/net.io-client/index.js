@@ -80,8 +80,8 @@ NetIo.Client = NetIo.EventingClass.extend({
 		// Set the state to connecting
 		this._state = 1;
 
-		// Replace http:// with ws://
-		url = url.replace('http://', 'ws://');
+		// Replace http:// with ws:// and https:// with wss://
+		url = url.replace('http://', 'ws://').replace('https://', 'wss://');
 
 		// Create new websocket to the url
 		this._socket = new WebSocket(url, 'netio1');
