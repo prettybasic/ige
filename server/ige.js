@@ -2,7 +2,7 @@ console.log('Executing IGE Under Node.js Version ' + process.version);
 
 // Set a global variable for the location of
 // the node_modules folder
-modulePath = '../';
+modulePath = '../../';
 
 // Load the CoreConfig.js file
 igeCoreConfig = require('../engine/CoreConfig.js');
