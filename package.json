@@ -9,6 +9,10 @@
     "server": "./server"
   },
 
+  "scripts": {
+    "install": "cd server;npm install"
+  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/prettybasic/ige.git"
